@@ -1,0 +1,102 @@
+.footer {
+    background: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .ftr-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .end-logo-footer {
+    font-family: "Raleway", sans-serif;
+    @include font(26px, 1.19, 0.03em);
+    color: var(--light-color);
+  }
+  .address {
+    font-style: normal;
+    @include font(14px, 1.71, 0.03em);
+    color: var(--light-color);
+  }
+  .contacts-footer {
+    font-style: normal;
+    @include font(14px, 1.71, 0.03em);
+    color: var(--con-foot-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .ftr-item:not(:first-child) {
+    margin-top: 9px;
+  }
+  .ftr-container{
+  display: flex;
+  }
+  .join-us{
+  margin-left: 70px;
+  padding: 12px 0px 40px;
+  }
+  .join-us-text{
+    margin-bottom: 20px;
+    font-weight: 700;
+    @include font(14px, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: var(--light-color);
+  }
+  .ftr-social-list{
+    display: flex;
+  }
+  .ftr-social-link{
+    display: flex;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--light-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus, &:hover{
+    background-color: var(--logo-color);
+  }
+  }
+  .send-out{
+    padding-top: 12px;
+    margin-left: 93px;
+  }
+  .ftr-form{
+    margin-top: 20px;
+    display: flex;
+  }
+  .subscribe-field{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    width: 358px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-weight: normal;
+    @include font(16px, 1.25, 0.03em);
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .subscribe-btn{
+    cursor: pointer;
+    background-color: var(--logo-color);
+    box-shadow: 0px 4px 4px var(--btn-order-shad-color);
+    border-radius: 4px;
+    border-width: 0px;
+    font-family: "Roboto";
+    font-weight: 700;
+    @include font(16px, 1.88, 0.06em);
+    color: var(--light-color);
+    fill: var(--light-color);
+    margin-left: 12px;
+    width: 200px;
+    padding: 10px 28px 10px 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus{
+    background-color: var(--btn-order-hov-color);
+  }
+  }

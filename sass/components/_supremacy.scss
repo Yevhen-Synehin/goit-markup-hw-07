@@ -1,0 +1,25 @@
+.supremacy {
+  @include font(14px, 1.14, 0.03em);  
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .supr-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .supr-item {
+    width: 270px;
+  }
+  .supremacy-text {
+    @include font(14px, 1.71, 0.03em);
+    color: var(--description-color);
+  }
+  .supr-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: var(--team-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
