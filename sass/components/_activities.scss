@@ -1,14 +1,14 @@
-.activities-section {
+.section--without-top-padding {
     padding-top: 0px;
   }
   .activities {
     display: flex;
     justify-content: space-between;
   }
-  .activity-thumb{
+  .activities__thumb{
     position: relative;
   }
-  .activities-name{
+  .activities__name{
     position: absolute;
     bottom: 0;
     width: 100%;

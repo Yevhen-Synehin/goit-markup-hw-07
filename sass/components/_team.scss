@@ -1,10 +1,10 @@
-.team-color {
+.section--team-color {
   background: var(--team-color);
 }
 .team-list {
   display: flex;
 }
-  .team-item {
+  .team-list__item {
     background-color: var(--light-color);
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -15,14 +15,14 @@
       margin-right: 30px;
     }
   }
-  .name {
+  .team-list__name {
     font-weight: 500;
     @include font(16px, 1.19, 0.03em);
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  .specialty {
+  .team-list__specialty {
     @include font(16px, 1.19, 0.03em);
     text-align: center;
     color: var(--description-color);
@@ -32,7 +32,7 @@
     padding: 16px 32px 0px;
     justify-content: space-between;
   }
-.social-link{
+.social-list__link{
     display: flex;
     padding: 12px;
     border-radius: 50%;

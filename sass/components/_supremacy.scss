@@ -1,20 +1,20 @@
-.supremacy {
+.supremacy-list__name {
   @include font(14px, 1.14, 0.03em);  
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  .supr-list {
+  .supremacy-list {
     display: flex;
     justify-content: space-between;
   }
-  .supr-item {
+  .supremacy-list__item {
     width: 270px;
   }
-  .supremacy-text {
+  .supremacy-list__text {
     @include font(14px, 1.71, 0.03em);
     color: var(--description-color);
   }
-  .supr-icon{
+  .supremacy-list__icon{
     display: flex;
     justify-content: center;
     align-items: center;
